@@ -2,9 +2,9 @@ import { useEffect } from "react";
 import initAOS from "../aos";
 
 const Prototipo = () => {
-    useEffect(() => {
-        initAOS();
-      }, []);
+    // useEffect(() => {
+    //     initAOS();
+    //   }, []);
     return (
 
         <section id="prototipo">
