@@ -22,6 +22,8 @@ export default function RootLayout({
     <html lang="en">
       {/* <link rel="shortcut icon" href="/favicon.ico" /> */}
 
+      {/* <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> */}
+
       <body className={inter.className}>
 
         <Nav />
@@ -31,7 +33,11 @@ export default function RootLayout({
 
         {/*<Footer/> */}
       </body>
+      {/* <script>
+  AOS.init();
+</script> */}
     </html>
+    
   )
 }
 

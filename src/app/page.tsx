@@ -13,6 +13,7 @@ import Patrocinadores from '../../components/Patrocinadores'
 import Premiacoes from '../../components/Premiacoes';
 import Destaques from '../../components/Destaques';
 import Contato from '../../components/Contato';
+import ImagemPrincipal from '../../components/ImagemPrincipal';
 
 //import { useClient } from 'next/client';
 
@@ -22,9 +23,7 @@ export default function Home() {
     <>
       {/* <Nav/> */}
       {/* flex min-h-screen flex-col items-center justify-between p-24 */}
-      {/* <section className="home"> */}
-      {/* <img id="inicio" src="imagem-principal.png" alt="" /> */}
-      {/* </section> */}
+      <ImagemPrincipal />
 
       <NossaHistoria1 />
       <NossaHistoria2 />

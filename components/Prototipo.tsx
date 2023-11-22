@@ -1,8 +1,16 @@
+import { useEffect } from "react";
+import initAOS from "../Aos";
+
 const Prototipo = () => {
+    useEffect(() => {
+        initAOS();
+      }, []);
     return (
 
-        <section className="" id="prototipo">
-            <h1 className="#prototipo fixed-text" >Protótipo</h1>
+        <section id="prototipo">
+            <div className="fixed-text">
+            <h1 className="#prototipo" data-aos="fade-down">Protótipo</h1>
+            </div>
             <div className="bg-linear-gradient ">
                 <div className="">
                     <div className="flex flex-col md:flex-row md:w-1/2 p-4 justify-center items-center content icones">

@@ -60,7 +60,7 @@ const Nav = () => {
           <img src="../logo.png" alt="Logo da Pato a Jato" className="logo h-8 mr-5" />
         </a>
         <a href="#" className="flex items-center">
-          <img src="../prototipo-icon.png" alt="Ícone do Protótipo da Pato a Jato" className="icon-popygua h-8 mr-5" />
+          <img src="../prototipo-icon.png" alt="Ícone do Protótipo da Pato a Jato" className="icon-popygua icon-popygua-invisible h-8 mr-5" />
         </a>
 
     </nav>
