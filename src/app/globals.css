@@ -162,11 +162,12 @@ nav {
 
 .icones {
   margin: auto;
-  padding: 1.5rem;
-  /* padding: 1rem; */
+  /* padding: 1.5rem; */
+  padding: 1rem;
 }
 .icones-contexto{
-  margin: .8rem;
+  margin: .5rem;
+  padding: auto;
   
 }
 
@@ -174,14 +175,18 @@ nav {
   width: 4rem;
   height: 4rem;
   padding: .2rem;
+  margin: .2rem;
+
 }
 
 .icones p {
   color: #554507;
   font-family: "Poppins";
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   font-style: normal;
   font-weight: 700;
+  /* margin: .5rem; */
+  /* padding: .3rem; */
 }
 
 
@@ -345,10 +350,10 @@ footer span {
     height: 100%;
     width: 50vh;
   }
-
+/* 
   .sidebar a {
     font-size: 1.2rem;
-  }
+  } */
 
   .sidebar .nav-link svg {
     width: 2rem;
@@ -381,11 +386,12 @@ footer span {
   }
 
   h1 {
-    font-size: 4rem;
+    font-size: 3.5rem;
+    /* font-size: 4rem; */
   }
 
   section .content p {
-    font-size: 2.rem;
+    /* font-size: 1.3rem; */
   }
 
   .destaque {
@@ -439,11 +445,14 @@ footer span {
     text-align: center;
     font-size: 1rem;
   }
+  .icones-contexto p{
+    /* font-size:.7rem; */
+  }
 
 }
 
 @media (max-width: 576px) {
   .icones p{
-    font-size: 1rem;
+    /* font-size: ; */
   }
 }

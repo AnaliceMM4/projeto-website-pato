@@ -1,26 +1,25 @@
 const Prototipo = () => {
     return (
- 
+
         <section className="" id="prototipo">
             <h1 className="#prototipo fixed-text" >Protótipo</h1>
             <div className="bg-linear-gradient ">
                 <div className="">
-                <div className="flex flex-col md:flex-row md:w-1/2 p-4 justify-center items-center content icones">
+                    <div className="flex flex-col md:flex-row md:w-1/2 p-4 justify-center items-center content icones">
                         <img src="prototipo2.png" className="image-popygua" alt="Imagem do Protótipo - Popygua" />
                     </div>
 
-                    <div className="flex flex-col md:flex-row">
+                    <div className="flex  flex-col  md:flex-row">
+
                         <div className="md:w-1/2 p-4 flex justify-center items-center content icones">
-                            <div className="md:w-1/2 p-4 flex flex-col md:flex-row md:items-start">
+
+                        <div className="md:w-1/2 p-4 flex items-center flex-col md:flex-row md:items-start">
+
+                            {/* <div className="md:w-1/2 p-4 flex flex-col md:flex-row md:items-start"> */}
+                                
 
                                 <div className="flex items-center icones-contexto">
-                                    <img className="icon" src="reconhecimento.png" alt="" />
-                                    <p className="text-base md:text-lg">Reconhecimento Internacional</p>
-                                </div>
-
-
-                                <div className="flex items-center icones-contexto">
-                                    <img className="icon" src="tecnologia.png" alt="" />
+                                    <img className="icon " src="tecnologia.png" alt="" />
                                     <p className="text-base md:text-lg">Tecnologia</p>
                                 </div>
                                 <div className="flex items-center icones-contexto" >
@@ -28,39 +27,42 @@ const Prototipo = () => {
                                     <p className="text-base md:text-lg">Desempenho</p>
                                 </div>
                                 <div className="flex items-center icones-contexto">
+                                    <img className="icon" src="eficiencia-energetica.png" alt="" />
+                                    <p className="text-base md:text-lg">Eficiência Energética</p>
+                                </div>
+                                <div className="flex items-center icones-contexto">
                                     <img className="icon" src="combustivel-alternativo.png" alt="" />
                                     <p className="text-base md:text-lg">Combustíveis Alternativos</p>
                                 </div>
 
                                 <div className="flex items-center icones-contexto">
-                                    <img src="mini-prototipo.png" className="" alt="" />
+                                    <img src="mini-prototipo.png"  className="w-full h-auto" alt="" />
                                 </div>
 
                             </div>
 
-                            <div className="md:w-1/2 p-4 flex flex-col md:flex-row md:items-start">
-
+                            <div className="md:w-1/2 p-4 flex items-center flex-col md:flex-row md:items-start">
                                 <div className="flex items-center icones-contexto">
-                                    <img className="icon mr-2" src="eficiencia-energetica.png" alt="" />
-                                    <p className="text-base md:text-lg">Eficiência Energética</p>
-                                </div>
-
-                                <div className="flex items-center icones-contexto">
-                                    <img className="icon" src="solucoes.png" alt="" />
-                                    <p className="text-base md:text-lg">Soluções Sustentáveis</p>
-                                </div>
-
-                                <div className="flex items-center icones-contexto">
-                                    <img className="icon" src="avanco.png" alt="" />
-                                    <p className="text-base md:text-lg">Design Avançado</p>
+                                    <img className="icon" src="reconhecimento.png" alt="" />
+                                    <p className="text-base md:text-lg">Prestígio</p>
                                 </div>
 
                                 <div className="flex items-center icones-contexto">
                                     <img className="icon" src="materiais-leves.png" alt="" />
                                     <p className="text-base md:text-lg">Materiais Leves</p>
                                 </div>
+
                                 <div className="flex items-center icones-contexto">
-                                    <img src="mini-prototipo2.png" className="" alt="" />
+                                    <img className="icon" src="avanco.png" alt="" />
+                                    <p className="text-base md:text-lg">Design Avançado</p>
+                                </div>
+                                <div className="flex items-center icones-contexto">
+                                    <img className="icon" src="solucoes.png" alt="" />
+                                    <p className="text-base md:text-lg">Soluções Sustentáveis</p>
+                                </div>
+
+                                <div className="flex items-center icones-contexto">
+                                    <img src="mini-prototipo2.png" className="w-full h-auto" alt="" />
                                 </div>
 
                             </div>
