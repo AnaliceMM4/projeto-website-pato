@@ -1,10 +1,7 @@
-import React, { useEffect } from 'react';
-import initAOS from '../Aos';
-
 const NossaHistoria2 = ({ }) => {
-  useEffect(() => {
-    initAOS();
-  }, []);
+  // useEffect(() => {
+  //   initAOS();
+  // }, []);
 
   return (
 

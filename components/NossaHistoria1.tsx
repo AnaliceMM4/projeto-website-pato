@@ -1,10 +1,7 @@
 import { useEffect } from "react";
-import initAOS from '../Aos';
 
 const NossaHistoria1 = () => {
-  useEffect(() => {
-    initAOS();
-  }, []);
+
   return (
 
     <section className="fixed-text">

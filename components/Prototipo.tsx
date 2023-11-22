@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import initAOS from "../Aos";
+import initAOS from "../aos";
 
 const Prototipo = () => {
     useEffect(() => {
