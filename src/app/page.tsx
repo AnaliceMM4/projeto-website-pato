@@ -30,7 +30,7 @@ export default function Home() {
       <Prototipo />
 
       <Destaques /> 
-      <AreasDeAtuacao />
+      {/* <AreasDeAtuacao /> */}
       <Patrocinadores />
       <Premiacoes /> 
       {/* <Contato />  */}

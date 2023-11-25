@@ -42,12 +42,13 @@ body {
 
 .home img {
   /* background: url("/public/imagem-grupo.png") cover no-repeat;  */
-  height: 100%;
-  width: 100%;
-  margin-top: 2rem;
+  /* height: 100%; */
+  /* width: 100%; */
+
+  /* margin-top: 2rem; */
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed; 
+  background-attachment: fixed;
 }
 
 nav {
@@ -78,7 +79,8 @@ nav {
   top: 0;
   left: 0;
   right: 0;
-  z-index: 0;/*z-index maior que o do navbar */
+  z-index: 0;
+  /*z-index maior que o do navbar */
   transition: left 0.3s ease-in-out;
   padding: .5rem;
   color: var(--white);
@@ -112,10 +114,12 @@ nav {
   color: var(--dark-yellow);
   font-weight: 400;
 }
-.fixed-text-context{
+
+.fixed-text-context {
   margin-left: 3rem;
   padding-left: 1.5rem;
 }
+
 .fixed-text {
   margin: 3rem;
   padding: 1.5rem;
@@ -141,14 +145,16 @@ nav {
 }
 
 .image-popygua {
-  max-width: 100%; /* Mantém a imagem responsiva */
+  max-width: 100%;
+  /* Mantém a imagem responsiva */
 }
 
 .icones {
   margin: auto;
   padding: 1rem;
 }
-.icones-contexto{
+
+.icones-contexto {
   margin: .5rem;
   padding: auto;
 }
@@ -161,7 +167,7 @@ nav {
 }
 
 .icones p {
-  color:var(--dark-yellow2);
+  color: var(--dark-yellow2);
   font-family: "Poppins";
   font-size: 1.2rem;
   font-style: normal;
@@ -178,7 +184,7 @@ nav {
   display: flex;
 }
 
-.contato{
+.contato {
   background-image: url('/pista-chegada.png');
   background-repeat: no-repeat;
   background-size: contain;
@@ -186,7 +192,7 @@ nav {
 }
 
 .destaque ul {
-  margin:auto;
+  margin: auto;
 }
 
 .destaque ul li {
@@ -276,6 +282,37 @@ footer span {
   /* display: grid;
   grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
   gap: 1.5rem; */
+}
+
+.contexto-areas h4 {
+  color: #423F3B;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.contexto-areas p {
+  font-size: 1.2rem;
+  text-align: center;
+  padding: 1rem;
+}
+
+.contexto-areas .icone-area {
+  width: 3rem;
+  height: 3rem;
+}
+
+.botao-com-borda {
+  width: 5rem;
+  height: 5rem;
+  border: 2px solid black;
+  border-radius: 1rem;
+  font-size: 16px;
+  transform: rotate(-2.588deg);
+  flex-shrink: 0;
+  cursor: pointer;
+  display: flex;
+  background-color: white;
+  align-items: center;
 }
 
 /* ========================= RESPONSIVIDADE ========================== */
@@ -375,7 +412,7 @@ footer span {
     height: 1.4rem;
   }
 
-  .icones .icon{
+  .icones .icon {
     width: 2.5rem;
     height: 2.5rem;
   }
@@ -390,13 +427,14 @@ footer span {
   }
 
 }
+
 @media (max-width: 1200px) {
- 
+
   .destaque ul li {
     padding: .2rem;
     margin: .5rem;
   }
- 
+
   .destaque ul li p {
     font-size: 1.2rem;
   }

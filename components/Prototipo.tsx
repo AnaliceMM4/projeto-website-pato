@@ -9,7 +9,7 @@ const Prototipo = () => {
 
         <section id="prototipo">
             <div className="fixed-text">
-            <h1 className="#prototipo" data-aos="fade-down">Protótipo</h1>
+                <h1 className="#prototipo" data-aos="fade-down">Protótipo</h1>
             </div>
             <div className="bg-linear-gradient ">
                 <div className="">
@@ -17,14 +17,13 @@ const Prototipo = () => {
                         <img src="prototipo2.png" className="image-popygua" alt="Imagem do Protótipo - Popygua" />
                     </div>
 
-                    <div className="flex  flex-col  md:flex-row">
+                    <div className="flex flex-col  md:flex-row">
 
                         <div className="md:w-1/2 p-4 flex justify-center items-center content icones">
 
-                        <div className="md:w-1/2 p-4 flex items-center flex-col md:flex-row md:items-start">
+                            <div className="md:w-1/2 p-4 flex items-center flex-col md:flex-row md:items-start">
 
-                            {/* <div className="md:w-1/2 p-4 flex flex-col md:flex-row md:items-start"> */}
-                                
+                                {/* <div className="md:w-1/2 p-4 flex flex-col md:flex-row md:items-start"> */}
 
                                 <div className="flex items-center icones-contexto">
                                     <img className="icon " src="tecnologia.png" alt="" />
@@ -44,7 +43,7 @@ const Prototipo = () => {
                                 </div>
 
                                 <div className="flex items-center icones-contexto">
-                                    <img src="mini-prototipo.png"  className="w-full h-auto" alt="" />
+                                    <img src="mini-prototipo.png" className="w-full h-auto" alt="" />
                                 </div>
 
                             </div>
